@@ -16,6 +16,8 @@ The settings page is split into two regions:
 The two displayed regions never merge: the append only joins at assembly time,
 so the top region keeps showing the untouched dynamic system prompt.
 
+![DSH提示词 settings page](assets/settings.png)
+
 Unlike an in-memory dynamic Cordis plugin (which is lost on restart), this is a
 profile bundle installed under the deployment layer, so it persists and takes
 effect on the next DSH start.
